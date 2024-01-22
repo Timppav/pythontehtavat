@@ -1,4 +1,5 @@
 cabin_class = input("Anna hyttiluokka (LUX, A, B, C): ").upper()
+
 if cabin_class == "LUX":
     print("\nLUX on parvekkeellinen hytti yläkannella.")
 elif cabin_class == "A":
@@ -8,4 +9,4 @@ elif cabin_class == "B":
 elif cabin_class == "C":
     print("\nC on ikkunaton hytti autokannen alapuolella.")
 else:
-    print("\nVirheellinen hyttiluokka")
+    print("\nVirheellinen hyttiluokka.")
