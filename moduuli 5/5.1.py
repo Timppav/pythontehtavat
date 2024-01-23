@@ -8,4 +8,4 @@ for juu in range(dice_amount):
     dice_list.append(dice)
 
 dice_sum = sum(dice_list)
-print(f"Silmälukujen summa: {dice_sum}")
+print(f"\nSilmälukujen summa: {dice_sum}")
