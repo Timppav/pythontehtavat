@@ -37,7 +37,7 @@ while finish != 1:
             rand_acceleration = random.randint(-10, 15)
             car.accelerate(rand_acceleration)
             car.travel(1)
-            if car.distance >= 1000:
+            if car.distance >= 10000:
                 finish = 1
                 print(f"{car.registration} on voittaja!\n")
 
