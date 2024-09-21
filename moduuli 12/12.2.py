@@ -3,7 +3,7 @@ import json
 
 search = input("Anna paikkakunnan nimi: ")
 
-api_key = "7811559a3bc9983955079501ea1b4874"
+api_key = ""
 units = "metric"
 geocode = "http://api.openweathermap.org/geo/1.0/direct?q=" + search + "&limit=5&appid=" + api_key
 
